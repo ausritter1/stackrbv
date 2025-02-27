@@ -169,7 +169,7 @@ st.session_state.df = evaluate_and_update(st.session_state.df)
 st.session_state.df = st.session_state.df.sort_values(by='Criteria Met', ascending=False)
 
 # Streamlit App
-st.title("Red Beard Ventures Startup Database")
+st.title("RBV Stack Ranked Startup DB")
 st.write("A tool to rank startups based on Red Beard Ventures' investment thesis and criteria")
 
 # Display the DataFrame
